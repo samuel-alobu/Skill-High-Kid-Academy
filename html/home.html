@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">SKHA</a>
+
+            <form action="search.html" method="post" class="search-form">
+                <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+        </nav>
+
+    </div>
+
+    <section class="home-grid">
+
+        <h1 class="heading">quick options</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">top categories</h3>
+                <div class="flex">
+                    <a href="#"><i class="fas fa-code"></i><span>development</span></a>
+                    <a href="#"><i class="fas fa-chart-simple"></i><span>business</span></a>
+                    <a href="#"><i class="fas fa-computer"></i><span>hardware</span></a>
+                    <a href="#"><i class="fas fa-pen"></i><span>design</span></a>
+                    <a href="#"><i class="fas fa-chart-line"></i><span>finances</span></a>
+                    <a href="#"><i class="fas fa-music"></i><span>music</span></a>
+                    <a href="#"><i class="fas fa-cog"></i><span>software</span></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <h3 class="title">popular topics</h3>
+                <div class="flex">
+                    <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+                    <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+                    <a href="#"><i class="fab fa-python"></i><span>python</span></a>
+                    <a href="#"><i class="fa fa-file-excel"></i><span>MS-Excel</span></a>
+                    <a href="#"><i class="fab fa-bootstrap"></i><span>bootstrap</span></a>
+                    <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+                    <a href="#"><i class="fa fa-file-word"></i><span>MS-Word</span></a>
+                    <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+                    <a href="#"><i class="fa fa-file-powerpoint"></i><span>powerpoint</span></a>
+                    <a href="#"><i class="fa fa-paint-brush"></i><span>graphics design</span></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3 class="title">become our student</h3>
+                <p class="tutor">Embark on a journey of learning and growth by becoming our student. We offer a range of courses designed to equip you with the skills and knowledge needed to succeed in today's dynamic world.Join us today and take the first step toward
+                    achieving your goals. Your future begins here!</p>
+                <a href="contact.html" class="inline-btn">enroll now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="courses">
+
+        <h1 class="heading">our courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/Samuel Uche.jpeg" alt="">
+                    <div class="info">
+                        <h3>samuel uchechukwu</h3>
+                        <span>senior frontend developer</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-3.png" alt="">
+                </div>
+                <h3 class="title">complete JS tutorial</h3>
+            </div>
+
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/Ebuka.jpeg" alt="">
+                    <div class="info">
+                        <h3>chukwuebuka osuchukwu</h3>
+                        <span>senior backend developer</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/python.webp" alt="">
+                </div>
+                <h3 class="title">complete Python tutorial</h3>
+            </div>
+
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/Joy Chioma.jpeg" alt="">
+                    <div class="info">
+                        <h3>joy chioma</h3>
+                        <span>computer software expert</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/computer app.png" alt="">
+                </div>
+                <h3 class="title">complete computer tutorial</h3>
+            </div>
+
+        </div>
+
+        <div class="more-btn">
+            <a href="courses.html" class="inline-option-btn">view all courses</a>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        &copy; copyright @ 2025 by <span>Timeless Rock Internet Services</span> | all rights reserved!
+
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
